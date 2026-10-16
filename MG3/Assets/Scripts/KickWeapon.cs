@@ -28,7 +28,7 @@ public class KickWeapon : MonoBehaviour
     // Uncomment the below method and replace the ???s with the method name.
     // This is a built-in method from Unity that runs EVERY FRAME.
     //
-    private void update()
+    private void Update()
     {
         
         // In the body of this method, we want to check if the timer has run out,
