@@ -11,6 +11,10 @@ public class Timer : MonoBehaviour
     // Make sure to TUNE this value in the INSPECTOR after you create it!
 
     private float time;
+    private float ftest;
+    private int itest;
+    private bool btest;
+    private string stest;
 
     // STEP 1 -----------------------------------------------------------------
 
@@ -50,7 +54,7 @@ public class Timer : MonoBehaviour
     // In this method body, use Time.deltaTime to decrease the the value of 
     //      our timer member variable every frame.
         time -= Time.deltaTime;
-
+        //Debug.Log(ftest+","+ itest+","+btest+","+stest+",");
     }
 
     // This method can be used to check the value of your time member variable.
